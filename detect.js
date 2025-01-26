@@ -1,3 +1,4 @@
+//Code for detecting the malicious content IP Address
 function isMaliciousContent(input) {
     // Regular expression to detect script tags and other malicious patterns
     const pattern = /<\s*script.*?>.*?<\s*\/\s*script\s*>|on\w+=".*?"|javascript:/gi;
