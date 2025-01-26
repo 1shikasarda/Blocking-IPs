@@ -1,3 +1,4 @@
+//This code fetches all the IP Address which are connected over same network
 const { exec } = require('child_process');
 
 // Command to get the ARP table which lists connected devices
