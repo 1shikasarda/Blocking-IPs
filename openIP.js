@@ -1,6 +1,6 @@
 const { exec } = require('child_process');
 
-const ipAddressToBlock = '192.168.137.141';
+const ipAddressToBlock = '192.168.137.141';//Replace with IP which you want to block
 
 const command = `netsh advfirewall firewall delete rule name="Block IP ${ipAddressToBlock}`;
 
