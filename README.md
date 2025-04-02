@@ -1,14 +1,39 @@
-This repository contains the Javascript code for 
+# *Network Monitoring Tool🔍🔒*
 
-STEPS:
-1. To fetch all the IP Addresses thst are connected over same network.
-2. It identify the suspicious IPs and sending alerts to admin about such type of IPs.
-3. The admin after getting the alert notification blocks the suspicious IP from the system.
-4. It also has a code to unblock the blocked IP in case if admin want to do so.
+## *Overview*
+This JavaScript-based solution monitors all IP addresses connected to a local network, identifies suspicious activity, and enables administrators to block potentially malicious IPs. The system provides real-time alerts and IP management capabilities.
 
-SETUP
+## *Key Features*
+- Network scanning: Detects all active IP addresses on the local network 📡
+- Threat detection: Identifies suspicious IP addresses based on activity patterns 🔍
+- Alert system: Notifies administrators of potential security threats 🚨
+- IP management: Allows blocking and unblocking of specific IP addresses 🔒
+- Real-time monitoring: Continuously watches network activity 📊
 
-1.You will require 2 mobile phones and 1 LAPTOP, where laptop acts as a server and mobile 1 as a network provider and other for malicious activity.
-2. Make sure that laptop and mobile are on same network which is provided by mobile 1 , this process is known as Hotspot creation on Laptop.
+## *Prerequisites*
+- 2 mobile devices 📱
+- 1 laptop (to serve as the monitoring server) 🖥️
+- All devices must be connected to the same network 🌐
 
+## *Setup Instructions*
+1. Network Configuration 📈
+    - Use Mobile 1 to create a WiFi hotspot 📱
+    - Connect both the laptop and Mobile 2 to this hotspot network 🖥️
+    - Ensure all devices have proper IP assignments 📊
+  
+## *Alert System*
+The system triggers alerts when:
+- New unknown devices join the network 
+- Suspicious port scanning is detected 
+- Unusual data transfer patterns occur 
+- Multiple connection attempts fail 
+   
+## *Key Functions*
+- View Connected Devices: Lists all active IPs on the network 🌐
+- Review Suspicious Activity: Shows flagged IPs with activity details 🔍
+- Block IP: Immediately blocks a suspicious IP 🚫
+- Unblock IP: Restores access for a previously blocked IP 👍
+
+## *Important Note 🚨*
+This tool is for educational and authorized security testing purposes only.Unauthorized network monitoring may violate privacy laws in your jurisdiction 🚫.
 
